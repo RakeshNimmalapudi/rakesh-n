@@ -9,8 +9,8 @@ type = string
 variable "tags" {
  type = map(any)
 }
-location="eastus"
-resourceGroupName="MyTerraform"
+location="us"
+resourceGroupName="Terraform"
 tags={
- enviroment="development"
+ enviroment="training"
 }
